@@ -6,7 +6,7 @@ web.open('https://automationbookstore.dev/')
 
 web.transaction('Search'); 
 web.type('id=searchBar', '${foo}')
-web.setTimeout(2000);
+web.setTimeout(1900);
 web.waitForExist('li.ui-screen-hidden')
 var visibleBooks = web.findElements('li:not(.ui-screen-hidden)').length
 assert.equal(visibleBooks, 1, "There should only be one book visible")
