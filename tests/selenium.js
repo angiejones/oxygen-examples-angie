@@ -5,6 +5,7 @@ web.transaction('Homepage');
 web.open('https://automationbookstore.dev/')
 
 web.transaction('Search'); 
+
 web.type('id=searchBar', '${foo}')
 web.setTimeout(1900);
 web.waitForExist('li.ui-screen-hidden')
