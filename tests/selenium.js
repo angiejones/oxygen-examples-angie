@@ -1,7 +1,7 @@
 web.transaction('Initialization');
 web.init()
 
-web.transaction('Homepage');
+web.transaction('Homepage1');
 web.open('https://automationbookstore.dev/')
 
 web.transaction('Search'); 
