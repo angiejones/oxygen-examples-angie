@@ -2,7 +2,7 @@ module.exports = {
 
     searchPage: {
         url: 'https://automationbookstore.dev/',
-        searchBar: 'id=searchBar2',
+        searchBar: 'id=searchBar',
         hiddenBooks: 'li.ui-screen-hidden',
         visibleBooks: 'li:not(.ui-screen-hidden)',
 
